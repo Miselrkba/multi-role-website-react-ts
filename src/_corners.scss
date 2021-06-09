@@ -1,0 +1,6 @@
+// src/_corners.scss
+$radius: 16px;
+
+@mixin rounded {
+  border-radius: $radius;
+}

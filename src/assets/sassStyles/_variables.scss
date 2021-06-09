@@ -1,0 +1,22 @@
+// color pallette
+$primary-color: #ff5722;
+$secondary-color: #eeeeee;
+$tertiary-color: #2d4059;
+$quaternary-color: #222831;
+
+// fonts
+@font-face {
+  font-family: 'Exo';
+  src: url(../fonts/exo/Exo-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: 'Economica';
+  src: url(../fonts/economica/Economica-Regular.ttf);
+}
+@font-face {
+  font-family: 'Maitree';
+  src: url(../fonts/maitree/Maitree-Regular.ttf);
+}
+$primary-font: 'Exo', serif;
+$secondary-font: 'Economica', serif;
+$tertiary-font: 'Maitree', serif;

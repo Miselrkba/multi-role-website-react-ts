@@ -1,42 +1,5 @@
-// color pallette variables
-$primary-color: #ff5722;
-$secondary-color: #eeeeee;
-$tertiary-color: #2d4059;
-$quaternary-color: #222831;
-
-@font-face {
-  font-family: 'Exo';
-  src: url(./assets/fonts/exo/Exo-VariableFont_wght.ttf);
-}
-@font-face {
-  font-family: 'Economica';
-  src: url(./assets/fonts/economica/Economica-Regular.ttf);
-}
-@font-face {
-  font-family: 'Maitree';
-  src: url(./assets/fonts/maitree/Maitree-Regular.ttf);
-}
-$primary-font: 'Exo', serif;
-$secondary-font: 'Economica', serif;
-$tertiary-font: 'Maitree', serif;
+@import './assets/sassStyles/variables';
 
 body {
   background: $secondary-color;
-}
-
-#one {
-  color: $primary-color;
-  font-family: $primary-font;
-  font-style: italic;
-  font-size: 4em;
-}
-#two {
-  color: $primary-color;
-  font-family: $secondary-font;
-  font-size: 3em;
-}
-
-p {
-  font-family: $tertiary-font;
-  font-size: 2em;
 }

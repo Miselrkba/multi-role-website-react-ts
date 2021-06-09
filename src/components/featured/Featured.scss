@@ -1,0 +1,14 @@
+@import '../../corners';
+@import '/src/assets/sassStyles/variables';
+
+h1 {
+  color: $primary-color;
+}
+
+@mixin rounded {
+  color: white;
+}
+
+button {
+  border-radius: $radius;
+}
