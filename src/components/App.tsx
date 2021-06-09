@@ -13,7 +13,6 @@ import Trust from './trust/Trust';
 const App = () => {
   return (
     <>
-      <button>test</button>
       <Header />
       <Hero />
       <Newsletter />
