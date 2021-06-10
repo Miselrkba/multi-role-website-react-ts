@@ -1,1 +1,131 @@
 @import '/src/assets/sassStyles/variables';
+
+#header {
+  width: 100%;
+  background-color: $secondary-color;
+  color: $primary-color;
+}
+
+.header__container {
+  width: 100%;
+  padding-right: 1em;
+  padding-left: 1em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 1200px) {
+  .header__container {
+    max-width: 1140px;
+  }
+}
+// @media (min-width: 992px) {
+//   .header__container {
+//     max-width: 960px;
+//   }
+// }
+// @media (min-width: 768px) {
+//   .header__container {
+//     max-width: 720px;
+//   }
+// }
+// @media (min-width: 576px) {
+//   .header__container {
+//     max-width: 540px;
+//   }
+// }
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0 15px;
+}
+
+.header__contact {
+  font-size: 12px;
+  i {
+    color: #ee1515;
+    padding-right: 10px;
+  }
+}
+
+.header__tel {
+  padding-right: 30px;
+}
+
+.header__nav__top {
+  display: flex;
+  align-items: center;
+}
+
+.header__login {
+  padding: 10px 20px;
+  font-size: 14px;
+  margin-right: 25px;
+  text-transform: uppercase;
+}
+
+.header__social {
+  display: flex;
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.header__bottom {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  flex-flow: row nowrap;
+}
+
+.header__group {
+  display: flex;
+  align-items: center;
+}
+
+.header__navbar__bottom {
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.header__brand {
+  display: inline-block;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.header__nav__link {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+.header__nav__item {
+}
+
+.header__search__form input[type='text'] {
+  border: 1px solid #ced4da;
+  color: #333;
+  padding: 1.5625rem 0.625rem;
+  margin-top: 0;
+  border-radius: 0;
+  margin-left: -1px;
+  button {
+    margin-top: 0;
+    border-radius: 0;
+    margin-left: -1px;
+  }
+}
+
+.header__collapse {
+  //   flex-basis: 100%;
+  //   flex-grow: 1;
+  //   align-items: center;
+  //   display: flex;
+  //   flex-basis: auto;
+  //   justify-content: flex-end;
+}
