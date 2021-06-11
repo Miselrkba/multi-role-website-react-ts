@@ -107,7 +107,6 @@
 .header__navbar__bottom {
   display: flex;
   padding-left: 0;
-  //   margin-bottom: 0;
   list-style: none;
   text-transform: uppercase;
   font-size: 0.875em;
@@ -122,31 +121,27 @@
 .header__nav__link {
   display: block;
   padding: 0.5rem 1rem;
-}
-.header__nav__item {
-}
+  position: relative;
 
-.header__search__form input[type='text'] {
-  border: 1px solid #ced4da;
-  color: #333;
-  padding: 1.5625rem 0.625rem;
-  margin-top: 0;
-  border-radius: 0;
-  margin-left: -1px;
-  button {
-    margin-top: 0;
-    border-radius: 0;
-    margin-left: -1px;
+  // link underline hover animation
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 4px;
+    background-color: $primary-color;
+    transition: width 0.4s cubic-bezier(0.25, 1, 0.5, 1);
   }
 }
-
-.header__collapse {
-  //   flex-basis: 100%;
-  //   flex-grow: 1;
-  //   align-items: center;
-  //   display: flex;
-  //   flex-basis: auto;
-  //   justify-content: flex-end;
+// link underline hover animation
+@media (hover: hover) and (pointer: fine) {
+  .header__nav__link:hover::before {
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
 }
 
 // ************responsivness
