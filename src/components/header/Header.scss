@@ -3,7 +3,30 @@
 #header {
   width: 100%;
   background-color: $secondary-color;
+  a {
+    color: $quaternary-color;
+    text-decoration: none;
+  }
+  font-family: $primary-font;
+}
+
+.header__icon {
+  display: inline-flex;
   color: $primary-color;
+}
+
+.header__icon__data {
+  padding-left: 0.3em;
+  &:hover {
+    color: $primary-color;
+    transition: all 0.2s ease-in-out;
+  }
+}
+
+.header__login {
+  span {
+    font-size: 1.1em;
+  }
 }
 
 .header__container {
@@ -14,27 +37,6 @@
   margin-left: auto;
 }
 
-@media (min-width: 1200px) {
-  .header__container {
-    max-width: 1140px;
-  }
-}
-// @media (min-width: 992px) {
-//   .header__container {
-//     max-width: 960px;
-//   }
-// }
-// @media (min-width: 768px) {
-//   .header__container {
-//     max-width: 720px;
-//   }
-// }
-// @media (min-width: 576px) {
-//   .header__container {
-//     max-width: 540px;
-//   }
-// }
-
 .header__top {
   display: flex;
   justify-content: space-between;
@@ -43,11 +45,7 @@
 }
 
 .header__contact {
-  font-size: 12px;
-  i {
-    color: #ee1515;
-    padding-right: 10px;
-  }
+  font-size: 0.8em;
 }
 
 .header__tel {
@@ -71,6 +69,25 @@
   padding-left: 0;
   margin: 0;
   list-style: none;
+  li:not(:last-child) {
+    padding-right: 1em;
+  }
+  a {
+    font-size: 1em;
+    display: inline-block;
+    width: 2.5em;
+    height: 2.5em;
+    border: 1px solid $primary-color;
+    border-radius: 4px;
+    line-height: 40px;
+    text-align: center;
+    background-color: transparent;
+    transition: all 0.25s ease-in-out;
+    &:hover {
+      color: #fff !important;
+      background-color: $primary-color;
+    }
+  }
 }
 
 .header__bottom {
@@ -90,8 +107,10 @@
 .header__navbar__bottom {
   display: flex;
   padding-left: 0;
-  margin-bottom: 0;
+  //   margin-bottom: 0;
   list-style: none;
+  text-transform: uppercase;
+  font-size: 0.875em;
 }
 
 .header__brand {
@@ -129,3 +148,25 @@
   //   flex-basis: auto;
   //   justify-content: flex-end;
 }
+
+// ************responsivness
+@media (min-width: 1200px) {
+  .header__container {
+    max-width: 1140px;
+  }
+}
+// @media (min-width: 992px) {
+//   .header__container {
+//     max-width: 960px;
+//   }
+// }
+// @media (min-width: 768px) {
+//   .header__container {
+//     max-width: 720px;
+//   }
+// }
+// @media (min-width: 576px) {
+//   .header__container {
+//     max-width: 540px;
+//   }
+// }

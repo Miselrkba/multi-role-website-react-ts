@@ -17,16 +17,18 @@ const Header = () => {
         <div className="header__top">
           <div className="header__contact">
             <a href="tel:+1234567890" className="header__tel">
-              <FaPhone />
-              <span>+1234567890</span>
+              <FaPhone className="header__icon" />
+              <span className="header__icon__data">+1234567890</span>
             </a>
             <a href="mailto:info@yourmail.com">
-              <FaEnvelope /> <span>info@yourmail.com</span>
+              <FaEnvelope className="header__icon" />{' '}
+              <span className="header__icon__data">info@yourmail.com</span>
             </a>
           </div>
           <nav className="header__nav__top">
-            <a href="//#" className="header__login">
-              <FaUser /> <span>Login</span>
+            <a href="/#" className="header__login">
+              <FaUser className="header__icon" />{' '}
+              <span className="header__icon__data">Login</span>
             </a>
             <ul className="header__social">
               <li>
