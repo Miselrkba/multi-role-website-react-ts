@@ -1,6 +1,9 @@
 @import '/src/assets/sassStyles/variables';
 
 #header {
+  // position: absolute;
+  // z-index: 1000;
+  // opacity: 0.9;
   width: 100%;
   background-color: $secondary-color;
   a {
