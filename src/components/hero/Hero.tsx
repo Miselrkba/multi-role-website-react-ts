@@ -13,14 +13,14 @@ const Hero = () => {
         <div className="hero__row">
           <Swiper
             // spaceBetween={30}
-            // centeredSlides={true}
-            // autoplay={{
-            //   delay: 2500,
-            //   disableOnInteraction: false,
-            // }}
-            pagination={{
-              clickable: true,
+            centeredSlides={true}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
             }}
+            // pagination={{
+            //   clickable: true,
+            // }}
             navigation={true}
             className="mySwiper"
           >
@@ -32,7 +32,7 @@ const Hero = () => {
                 voluptatibus delectus nemo.
               </p>
               <button>See More</button>
-              <button>Get More</button>
+              <button>Buy Now</button>
             </SwiperSlide>
             <SwiperSlide>
               <h1>Creative Multipurpose Website</h1>
@@ -42,7 +42,7 @@ const Hero = () => {
                 voluptatibus delectus nemo.
               </p>
               <button>See More</button>
-              <button>Get More</button>
+              <button>Buy Now</button>
             </SwiperSlide>
             <SwiperSlide>
               <h1>Creative Multipurpose Website</h1>
@@ -52,7 +52,7 @@ const Hero = () => {
                 voluptatibus delectus nemo.
               </p>
               <button>See More</button>
-              <button>Get More</button>
+              <button>Buy Now</button>
             </SwiperSlide>
             <SwiperSlide>
               <h1>Creative Multipurpose Website</h1>
@@ -62,7 +62,7 @@ const Hero = () => {
                 voluptatibus delectus nemo.
               </p>
               <button>See More</button>
-              <button>Get More</button>
+              <button>Buy Now</button>
             </SwiperSlide>
           </Swiper>
         </div>

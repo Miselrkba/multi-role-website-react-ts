@@ -26,10 +26,28 @@
 
 .swiper-container {
   width: 500px;
+  text-align: center;
+  font-size: smaller;
+  p {
+    font-size: 1.4em;
+    font-family: $primary-font;
+  }
+  button {
+    margin: 0.5em;
+    padding: 0.5em;
+    text-transform: uppercase;
+  }
 }
-
+.swiper-pagination {
+  padding: 3em;
+}
 @media (min-width: 992px) {
   .swiper-container {
     width: 1140px;
+    font-size: medium;
+  }
+  button {
+    margin: 3em;
+    padding: 1em;
   }
 }
