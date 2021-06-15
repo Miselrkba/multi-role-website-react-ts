@@ -9,60 +9,64 @@ SwiperCore.use([Autoplay, Pagination, Navigation]);
 const Hero = () => {
   return (
     <section className="hero">
-      <Swiper
-        spaceBetween={30}
-        centeredSlides={true}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
-        pagination={{
-          clickable: true,
-        }}
-        navigation={true}
-        className="mySwiper"
-      >
-        <SwiperSlide>
-          <h1>Lorem, ipsum dolor.</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam,
-            officiis. Consectetur quos incidunt nam dolor in officia
-            voluptatibus delectus nemo.
-          </p>
-          <button>See More</button>
-          <button>Get More</button>
-        </SwiperSlide>
-        <SwiperSlide>
-          <h1>Lorem, ipsum dolor.</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam,
-            officiis. Consectetur quos incidunt nam dolor in officia
-            voluptatibus delectus nemo.
-          </p>
-          <button>See More</button>
-          <button>Get More</button>
-        </SwiperSlide>
-        <SwiperSlide>
-          <h1>Lorem, ipsum dolor.</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam,
-            officiis. Consectetur quos incidunt nam dolor in officia
-            voluptatibus delectus nemo.
-          </p>
-          <button>See More</button>
-          <button>Get More</button>
-        </SwiperSlide>
-        <SwiperSlide>
-          <h1>Lorem, ipsum dolor.</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam,
-            officiis. Consectetur quos incidunt nam dolor in officia
-            voluptatibus delectus nemo.
-          </p>
-          <button>See More</button>
-          <button>Get More</button>
-        </SwiperSlide>
-      </Swiper>
+      <div className="hero__container">
+        <div className="hero__row">
+          <Swiper
+            // spaceBetween={30}
+            // centeredSlides={true}
+            // autoplay={{
+            //   delay: 2500,
+            //   disableOnInteraction: false,
+            // }}
+            pagination={{
+              clickable: true,
+            }}
+            navigation={true}
+            className="mySwiper"
+          >
+            <SwiperSlide>
+              <h1>Creative Multipurpose Website</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam,
+                officiis. Consectetur quos incidunt nam dolor in officia
+                voluptatibus delectus nemo.
+              </p>
+              <button>See More</button>
+              <button>Get More</button>
+            </SwiperSlide>
+            <SwiperSlide>
+              <h1>Creative Multipurpose Website</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam,
+                officiis. Consectetur quos incidunt nam dolor in officia
+                voluptatibus delectus nemo.
+              </p>
+              <button>See More</button>
+              <button>Get More</button>
+            </SwiperSlide>
+            <SwiperSlide>
+              <h1>Creative Multipurpose Website</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam,
+                officiis. Consectetur quos incidunt nam dolor in officia
+                voluptatibus delectus nemo.
+              </p>
+              <button>See More</button>
+              <button>Get More</button>
+            </SwiperSlide>
+            <SwiperSlide>
+              <h1>Creative Multipurpose Website</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam,
+                officiis. Consectetur quos incidunt nam dolor in officia
+                voluptatibus delectus nemo.
+              </p>
+              <button>See More</button>
+              <button>Get More</button>
+            </SwiperSlide>
+          </Swiper>
+        </div>
+      </div>
     </section>
   );
 };
