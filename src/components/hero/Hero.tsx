@@ -3,7 +3,7 @@ import React from 'react';
 import './Hero.scss';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Autoplay, Pagination, Navigation } from 'swiper/core';
-import 'swiper/swiper-bundle.css';
+import 'swiper/swiper-bundle.min.css';
 SwiperCore.use([Autoplay, Pagination, Navigation]);
 
 const Hero = () => {
@@ -12,17 +12,12 @@ const Hero = () => {
       <div className="hero__container">
         <div className="hero__row">
           <Swiper
-            // spaceBetween={30}
-            centeredSlides={true}
             autoplay={{
-              delay: 2500,
+              delay: 2000,
               disableOnInteraction: false,
             }}
-            // pagination={{
-            //   clickable: true,
-            // }}
+            loop={true}
             navigation={true}
-            className="mySwiper"
           >
             <SwiperSlide>
               <h1>Creative Multipurpose Website</h1>
@@ -31,8 +26,12 @@ const Hero = () => {
                 officiis. Consectetur quos incidunt nam dolor in officia
                 voluptatibus delectus nemo.
               </p>
-              <button>See More</button>
-              <button>Buy Now</button>
+              <button className="hero__button --outlined__button">
+                <span>See More</span>
+              </button>
+              <button className="hero__button --outlined__button">
+                <span>Buy Now</span>
+              </button>
             </SwiperSlide>
             <SwiperSlide>
               <h1>Creative Multipurpose Website</h1>
@@ -41,8 +40,12 @@ const Hero = () => {
                 officiis. Consectetur quos incidunt nam dolor in officia
                 voluptatibus delectus nemo.
               </p>
-              <button>See More</button>
-              <button>Buy Now</button>
+              <button className="hero__button --outlined__button">
+                <span>See More</span>
+              </button>
+              <button className="hero__button --outlined__button">
+                <span>Buy Now</span>
+              </button>
             </SwiperSlide>
             <SwiperSlide>
               <h1>Creative Multipurpose Website</h1>
@@ -51,8 +54,12 @@ const Hero = () => {
                 officiis. Consectetur quos incidunt nam dolor in officia
                 voluptatibus delectus nemo.
               </p>
-              <button>See More</button>
-              <button>Buy Now</button>
+              <button className="hero__button --outlined__button">
+                <span>See More</span>
+              </button>
+              <button className="hero__button --outlined__button">
+                <span>Buy Now</span>
+              </button>
             </SwiperSlide>
             <SwiperSlide>
               <h1>Creative Multipurpose Website</h1>
@@ -61,8 +68,12 @@ const Hero = () => {
                 officiis. Consectetur quos incidunt nam dolor in officia
                 voluptatibus delectus nemo.
               </p>
-              <button>See More</button>
-              <button>Buy Now</button>
+              <button className="hero__button --outlined__button">
+                <span>See More</span>
+              </button>
+              <button className="hero__button --outlined__button">
+                <span>Buy Now</span>
+              </button>
             </SwiperSlide>
           </Swiper>
         </div>
