@@ -1,10 +1,33 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import './Hero.scss';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Autoplay, Pagination, Navigation } from 'swiper/core';
 import 'swiper/swiper-bundle.min.css';
 SwiperCore.use([Autoplay, Pagination, Navigation]);
+
+const HeroContent = () => {
+  return (
+    <>
+      <h1>
+        Creative
+        <br />
+        Multi-Role Website
+      </h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        <br />
+        Quam, officiis. Consectetur quos incidunt nam dolor in officia
+        voluptatibus delectus nemo.
+      </p>
+      <button className="hero__button --outlined__button">
+        <span>See More</span>
+      </button>
+      <button className="hero__button --outlined__button">
+        <span>Buy Now</span>
+      </button>
+    </>
+  );
+};
 
 const Hero = () => {
   return (
@@ -20,60 +43,16 @@ const Hero = () => {
             navigation={true}
           >
             <SwiperSlide>
-              <h1>Creative Multipurpose Website</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam,
-                officiis. Consectetur quos incidunt nam dolor in officia
-                voluptatibus delectus nemo.
-              </p>
-              <button className="hero__button --outlined__button">
-                <span>See More</span>
-              </button>
-              <button className="hero__button --outlined__button">
-                <span>Buy Now</span>
-              </button>
+              <HeroContent />
             </SwiperSlide>
             <SwiperSlide>
-              <h1>Creative Multipurpose Website</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam,
-                officiis. Consectetur quos incidunt nam dolor in officia
-                voluptatibus delectus nemo.
-              </p>
-              <button className="hero__button --outlined__button">
-                <span>See More</span>
-              </button>
-              <button className="hero__button --outlined__button">
-                <span>Buy Now</span>
-              </button>
+              <HeroContent />
             </SwiperSlide>
             <SwiperSlide>
-              <h1>Creative Multipurpose Website</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam,
-                officiis. Consectetur quos incidunt nam dolor in officia
-                voluptatibus delectus nemo.
-              </p>
-              <button className="hero__button --outlined__button">
-                <span>See More</span>
-              </button>
-              <button className="hero__button --outlined__button">
-                <span>Buy Now</span>
-              </button>
+              <HeroContent />
             </SwiperSlide>
             <SwiperSlide>
-              <h1>Creative Multipurpose Website</h1>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam,
-                officiis. Consectetur quos incidunt nam dolor in officia
-                voluptatibus delectus nemo.
-              </p>
-              <button className="hero__button --outlined__button">
-                <span>See More</span>
-              </button>
-              <button className="hero__button --outlined__button">
-                <span>Buy Now</span>
-              </button>
+              <HeroContent />
             </SwiperSlide>
           </Swiper>
         </div>
