@@ -8,21 +8,29 @@ SwiperCore.use([Autoplay, Pagination, Navigation]);
 const HeroContent = () => {
   return (
     <>
-      <h1>
+      <h1 data-aos="fade-right" data-aos-delay="200">
         Creative
         <br />
         Multi-Role Website
       </h1>
-      <p>
+      <p data-aos="fade-right" data-aos-delay="600">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         <br />
         Quam, officiis. Consectetur quos incidunt nam dolor in officia
         voluptatibus delectus nemo.
       </p>
-      <button className="creative__button --outlined__button">
+      <button
+        className="creative__button --outlined__button"
+        data-aos="fade-right"
+        data-aos-delay="900"
+      >
         <span>See More</span>
       </button>
-      <button className="creative__button --outlined__button">
+      <button
+        className="creative__button --outlined__button"
+        data-aos="fade-right"
+        data-aos-delay="900"
+      >
         <span>Buy Now</span>
       </button>
     </>
