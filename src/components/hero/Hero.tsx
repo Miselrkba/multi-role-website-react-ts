@@ -19,10 +19,10 @@ const HeroContent = () => {
         Quam, officiis. Consectetur quos incidunt nam dolor in officia
         voluptatibus delectus nemo.
       </p>
-      <button className="hero__button --outlined__button">
+      <button className="creative__button --outlined__button">
         <span>See More</span>
       </button>
-      <button className="hero__button --outlined__button">
+      <button className="creative__button --outlined__button">
         <span>Buy Now</span>
       </button>
     </>
