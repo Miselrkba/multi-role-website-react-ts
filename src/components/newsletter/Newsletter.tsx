@@ -15,7 +15,7 @@ const Newsletter = () => {
             data-aos="fade-right"
             data-aos-delay="200"
           >
-            <h2>BUILDING THE MODERN WEBSITES</h2>
+            <h2>BUILDING MODERN WEBSITES</h2>
             <p>
               Packed with all the goodies you can get, your premium website.
             </p>
