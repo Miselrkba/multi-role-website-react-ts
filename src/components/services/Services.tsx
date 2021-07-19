@@ -102,7 +102,7 @@ const Services = () => {
                 <div className="services__container__row__box__media__body">
                   <h5>Elaboration of the core</h5>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Consequuntur, quo.
+                  Consequuntur, quo. test
                 </div>
               </div>
             </div>
