@@ -1,6 +1,6 @@
-@import '/src/assets/sassStyles/variables';
+@import "/src/assets/sassStyles/variables";
 
-.hero {
+#hero {
   background: url(../../assets/images/background/hero-bg.jpg) no-repeat center;
   background-size: cover;
   overflow: hidden;
@@ -89,7 +89,7 @@
 }
 .--outlined__button:before,
 .--outlined__button:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   right: 1px;

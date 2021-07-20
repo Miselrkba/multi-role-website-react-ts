@@ -1,8 +1,8 @@
-import React from 'react';
-import './Hero.scss';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Autoplay, Pagination, Navigation } from 'swiper/core';
-import 'swiper/swiper-bundle.min.css';
+import React from "react";
+import "./Hero.scss";
+import { Swiper, SwiperSlide } from "swiper/react";
+import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper/core";
+import "swiper/swiper-bundle.min.css";
 SwiperCore.use([Autoplay, Pagination, Navigation]);
 
 const HeroContent = () => {
@@ -39,7 +39,7 @@ const HeroContent = () => {
 
 const Hero = () => {
   return (
-    <section className="hero">
+    <section id="hero">
       <div className="hero__container">
         <div className="hero__row">
           <Swiper

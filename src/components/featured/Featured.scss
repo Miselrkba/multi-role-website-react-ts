@@ -1,7 +1,110 @@
-@import '/src/assets/sassStyles/variables';
+@import "/src/assets/sassStyles/variables";
 
 #featured {
-  h1 {
-    color: $primary-color;
+  padding: 50px 0;
+  background-color: $secondary-color;
+  button {
+    margin-top: 80px;
+    position: relative;
+    top: 40px;
   }
+  h1 {
+    font-family: $secondary-font;
+    font-size: 4em;
+    font-weight: bold;
+    color: $tertiary-color;
+  }
+  h5 {
+    text-transform: uppercase;
+    color: $quaternary-color;
+    font-size: 1.25em;
+    margin-top: 0;
+    margin-bottom: 1em;
+    font-family: $tertiary-font;
+  }
+  h6 {
+    color: $primary-color;
+    font-size: 1.5em;
+  }
+  p {
+    font-size: 1em;
+    font-family: $primary-font;
+    color: $tertiary-color;
+    margin-bottom: 2em;
+  }
+  svg {
+    color: $primary-color;
+    font-size: 1.5em;
+    margin-right: 0.5em;
+  }
+}
+
+.featured__container {
+  width: 100%;
+  max-width: 1140px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.featured__row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.featured__row__wrapper {
+  flex: 0 0 50%;
+  max-width: 50%;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.featured__title {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.featured__media__container {
+  display: flex;
+  justify-content: space-between;
+}
+.featured__media {
+  display: flex;
+  align-items: flex-start;
+}
+.featured__media__body {
+  flex: 1;
+}
+
+.featured__button {
+  margin-left: 0;
+}
+
+.featured__img {
+  height: 100%;
+  margin-top: -66px;
+  position: relative;
+}
+
+.featured__big {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  vertical-align: middle;
+  border-style: none;
+}
+
+.featured__small {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 25px 25px 0 0;
+  background-color: #fff;
+  vertical-align: middle;
+  border-style: none;
 }
