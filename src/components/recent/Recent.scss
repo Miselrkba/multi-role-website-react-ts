@@ -1,1 +1,91 @@
-@import '/src/assets/sassStyles/variables';
+@import "/src/assets/sassStyles/variables";
+
+#recent {
+  padding: 65px 0 100px;
+  font-family: $primary-font;
+  h3 {
+    font-size: calc(1.3em + 0.6vw);
+    margin: 10px 0 2px;
+  }
+  a {
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+}
+
+.recent__container {
+  width: 100%;
+  max-width: 1140px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.recent__row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.recent__row__wrapper {
+  max-width: 50%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.recent__button__container {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.recent__row__post {
+  margin: 35px 0 0;
+  display: flex;
+  align-items: center;
+}
+
+.recent__row__post__content__thumb:nth-child(even) {
+  margin-top: 0;
+  margin-left: 25px;
+}
+
+.recent__row__post__content {
+  text-align: center;
+  color: $tertiary-color;
+  time {
+    font-size: 0.9em;
+    color: $tertiary-color;
+  }
+  h3 a {
+    color: $quaternary-color;
+    font-weight: 600;
+  }
+  h3 a:hover {
+    font-weight: 700;
+    text-decoration: none;
+  }
+  a {
+    color: $tertiary-color;
+  }
+  a:hover {
+    color: $quaternary-color;
+  }
+}
+
+.recent__row__post__content .recent__icon__button {
+  color: $tertiary-color;
+  text-align: center;
+  font-size: 10px;
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  line-height: 38px;
+  border-radius: 50%;
+  background-color: $secondary-color;
+  &:hover {
+    color: #fff;
+    background-color: $primary-color;
+  }
+}
