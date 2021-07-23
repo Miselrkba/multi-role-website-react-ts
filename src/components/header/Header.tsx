@@ -1,6 +1,6 @@
-import React from 'react';
-import logo from '../../assets/images/logo.png';
-import './Header.scss';
+import React from "react";
+import logo from "../../assets/images/logo.png";
+import "./Header.scss";
 import {
   FaEnvelope,
   FaPhone,
@@ -8,7 +8,7 @@ import {
   FaFacebook,
   FaGooglePlus,
   FaTwitter,
-} from 'react-icons/fa';
+} from "react-icons/fa";
 
 const Header = () => {
   return (
@@ -21,13 +21,13 @@ const Header = () => {
               <span className="header__icon__data">+1234567890</span>
             </a>
             <a href="mailto:info@yourmail.com">
-              <FaEnvelope className="header__icon" />{' '}
+              <FaEnvelope className="header__icon" />{" "}
               <span className="header__icon__data">info@yourmail.com</span>
             </a>
           </div>
           <nav className="header__nav__top">
             <a href="/#" className="header__login">
-              <FaUser className="header__icon" />{' '}
+              <FaUser className="header__icon" />{" "}
               <span className="header__icon__data">Login</span>
             </a>
             <ul className="header__social">
@@ -66,7 +66,7 @@ const Header = () => {
               </li>
               <li className="header__nav__item">
                 <a className="header__nav__link" href="/#">
-                  About Us
+                  About Me
                 </a>
               </li>
               <li className="header__nav__item">
@@ -86,7 +86,7 @@ const Header = () => {
               </li>
               <li className="header__nav__item">
                 <a className="header__nav__link" href="/#">
-                  Contact Us
+                  Contact Me
                 </a>
               </li>
             </ul>

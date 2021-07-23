@@ -1,18 +1,18 @@
-import React from 'react';
-import './Services.scss';
-import service1 from '../../assets/images/service1.png';
-import service2 from '../../assets/images/service2.png';
-import service3 from '../../assets/images/service3.png';
-import service4 from '../../assets/images/service4.png';
-import service5 from '../../assets/images/service5.png';
+import React from "react";
+import "./Services.scss";
+import service1 from "../../assets/images/service1.png";
+import service2 from "../../assets/images/service2.png";
+import service3 from "../../assets/images/service3.png";
+import service4 from "../../assets/images/service4.png";
+import service5 from "../../assets/images/service5.png";
 
 const Services = () => {
   return (
     <section id="services">
       <div className="services__container__top">
         <div className="services__title">
-          <h6>Our Work</h6>
-          <h1>Why Choose Us</h1>
+          <h6>My Work</h6>
+          <h1>Why Choose Me</h1>
         </div>
         <div className="services__container__bottom">
           <div className="services__container__row">

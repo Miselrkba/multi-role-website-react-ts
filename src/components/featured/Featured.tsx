@@ -16,7 +16,7 @@ const Featured = () => {
             data-aos-duration="800"
           >
             <div className="featured__title">
-              <h6>About Template</h6>
+              <h6>About the company</h6>
               <h1>a rich featured, epic & premium work.</h1>
             </div>
             <p>

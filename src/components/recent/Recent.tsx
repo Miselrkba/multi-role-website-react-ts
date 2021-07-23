@@ -20,11 +20,11 @@ const Recent = () => {
               <div className="recent__row__post__content">
                 <time dateTime="2021-08-06T13:53">15 Oct, 2021</time>
                 <h3>
-                  <a href="/#">Proudly for us to build stylish</a>
+                  <a href="/#">Proud to build stylish</a>
                 </h3>
                 <p>
-                  <a href="/#">Creative</a>, <a href="/#">Website</a>,
-                  <a href="/#">E-commerce</a>
+                  <a href="/#">Creative</a>, <a href="/#">Websites</a>,
+                  <a href="/#"> E-commerce</a>
                 </p>
                 <a className="recent__icon__button" href="/#">
                   <FaArrowRight />
@@ -50,8 +50,8 @@ const Recent = () => {
                   <a href="/#">Remind me to water the plants</a>
                 </h3>
                 <p>
-                  <a href="/#">Creative</a>, <a href="/#">Website</a>,
-                  <a href="/#">E-commerce</a>
+                  <a href="/#">Creative</a>, <a href="/#">Websites</a>,
+                  <a href="/#"> E-commerce</a>
                 </p>
                 <a className="recent__icon__button" href="/#">
                   <FaArrowRight />
@@ -72,8 +72,8 @@ const Recent = () => {
                   <a href="/#">Add apples to the grocery list</a>
                 </h3>
                 <p>
-                  <a href="/#">Creative</a>, <a href="/#">Website</a>,
-                  <a href="/#">E-commerce</a>
+                  <a href="/#">Creative</a>, <a href="/#">Websites</a>,
+                  <a href="/#"> E-commerce</a>
                 </p>
                 <a className="recent__icon__button" href="/#">
                   <FaArrowRight />
@@ -100,8 +100,8 @@ const Recent = () => {
                   <a href="/#">Make it warmer downstairs</a>
                 </h3>
                 <p>
-                  <a href="/#">Creative</a>, <a href="/#">Website</a>,
-                  <a href="/#">E-commerce</a>
+                  <a href="/#">Creative</a>, <a href="/#">Websites</a>,
+                  <a href="/#"> E-commerce</a>
                 </p>
                 <a className="recent__icon__button" href="/#">
                   <FaArrowRight />
