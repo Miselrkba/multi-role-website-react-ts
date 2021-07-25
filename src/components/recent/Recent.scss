@@ -24,6 +24,7 @@
 
 .recent__row {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
@@ -87,5 +88,11 @@
   &:hover {
     color: #fff;
     background-color: $primary-color;
+  }
+}
+
+@media (min-width: 992px) {
+  .recent__row {
+    flex-direction: row;
   }
 }
