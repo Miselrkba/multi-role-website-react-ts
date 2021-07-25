@@ -25,6 +25,7 @@
   h6 {
     color: $primary-color;
     font-size: 1.5em;
+    margin-bottom: -0.8em;
   }
   p {
     font-size: 1em;
@@ -85,18 +86,14 @@
   margin-left: 0;
 }
 
-.featured__img {
-  height: 100%;
-  margin-top: -66px;
-  position: relative;
-}
-
 .featured__big {
   position: absolute;
   bottom: 0;
   right: 0;
   vertical-align: middle;
   border-style: none;
+  width: 88%;
+  height: auto;
 }
 
 .featured__small {
@@ -107,6 +104,19 @@
   background-color: #fff;
   vertical-align: middle;
   border-style: none;
+  width: 50%;
+  height: auto;
+}
+
+@media (min-width: 992px) {
+  .featured__img {
+    display: block;
+    height: 100%;
+    position: relative;
+  }
+  .featured__big {
+    width: 100%;
+  }
 }
 
 // ************responsivness

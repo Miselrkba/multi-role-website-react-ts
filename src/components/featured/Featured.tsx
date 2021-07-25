@@ -46,7 +46,6 @@ const Featured = () => {
             <button
               className="featured__button creative__button --outlined__button"
               data-aos="fade-right"
-              data-aos-delay="100"
             >
               <span>See More</span>
             </button>
@@ -54,7 +53,7 @@ const Featured = () => {
           <div
             className="featured__row__wrapper"
             data-aos="fade-left"
-            data-aos-delay="400"
+            data-aos-delay="200"
             data-aos-duration="800"
           >
             <div className="featured__img">
